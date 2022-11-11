@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../practise-6/images/笑笑工大3.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+.nav-links li {
+  list-style: none;
+  display: inline-block;
+  margin: 8px 30px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(21, 22, 22);
+}
+.callme {
+  background-color: aliceblue;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.container {
+  padding: 0 7%;
+}
+.header h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: rgb(211, 57, 172);
+  text-align: center;
+  padding-top: 16%;
+}
+.search-bar {
+  background-color: #fff;
+  width: 70%;
+  margin: 30px auto;
+  padding: 6px 10px 6px 30px;
+  border-radius: 50px;
+}
+.search-bar form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-bar input {
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.search-bar form button {
+  background-color: #ff5361;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.search-bar form button img {
+  width: 23px;
+  margin-top: 7px;
+  margin-left: 3px;
+}
+/* .location-input {
+  flex: 1;
+} */
+.search-bar form label {
+  font-weight: 600;
+}
+.sub-title {
+  text-align: center;
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: #333;
+}
+.exclusives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.exclusives img {
+  width: 100%;
+  border-radius: 10px;
+}
+.exclusives div {
+  position: relative;
+}
+.exclusives div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(87, 13, 13);
+}
+.trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-bottom: 30px;
+}
+.trending div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.trending h3 {
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+.cta {
+  margin: 80px 0;
+  background-image: linear-gradient(to right, #3f2321, transparent),
+    url(../practise-6/images/banner-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: rgb(67, 21, 110);
+}
+.cta h3 {
+  font-size: 4vw;
+  font-weight: 500;
+  line-height: 5.3vw;
+}
+.cta p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.cta-btn {
+  background-color: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
